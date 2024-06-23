@@ -143,3 +143,5 @@ tsconfig.json
 
 README.md
 ```
+
+OBS: Remember that you need replace the <MODEL_KEY> and <MATTER_PORT_SDK_KEY> for the project works.
