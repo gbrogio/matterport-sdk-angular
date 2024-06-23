@@ -1,0 +1,47 @@
+iframe {
+  height: 85vh;
+  width: 100%;
+}
+
+p {
+  position: absolute;
+  background: black;
+  width: 270px;
+  color: white;
+  padding: 5px;
+  opacity: 0.6;
+}
+
+button {
+  position: absolute;
+  display: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #FF4081;
+  opacity: 0.6;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  animation: pulse 2s infinite;
+}
+
+button svg {
+  fill: white;
+  width: 24px;
+  height: 24px;
+}
+
+@keyframes pulse {
+  0% {
+      box-shadow: 0 0 0 0 rgba(255, 64, 129, 0.7);
+  }
+  70% {
+      box-shadow: 0 0 0 20px rgba(255, 64, 129, 0);
+  }
+  100% {
+      box-shadow: 0 0 0 0 rgba(255, 64, 129, 0);
+  }
+}
